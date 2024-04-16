@@ -340,7 +340,7 @@ header {
      background: transparent;
      padding: 0;
      border: none;
-     margin-left: 25px;
+     align-content:center
 }
 
 #sidebar .sidebar-header {

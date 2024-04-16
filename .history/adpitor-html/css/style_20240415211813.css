@@ -272,7 +272,7 @@ header {
 
 .menu_sitbar {
      float: left;
-     width: 160px;
+     width: 150px;
      height: 100%;
      background: #00344c;
      border-right: #fff solid 7px;
@@ -340,7 +340,6 @@ header {
      background: transparent;
      padding: 0;
      border: none;
-     margin-left: 25px;
 }
 
 #sidebar .sidebar-header {
