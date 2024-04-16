@@ -466,6 +466,7 @@ ul.btn li:last-child {
 
 .header_full_banner {
      background-color: #0097b2;
+     min-height: 695px;
      max-height: 1200px;
 }
 
