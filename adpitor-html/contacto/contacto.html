@@ -83,9 +83,9 @@
                            </div>
                            <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
                               <ul class="btn">
-                                 <li class="login_btn"><a href="#">Login</a></li>
-                                 <li><a href="#">Sign Up</a></li>
-                                 <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                                 <li><a href="#" class="userCenter"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person icon-spacing" viewBox="0 0 16 16">
+                                    <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+                                  </svg>Usuario</a></li>
                               </ul>
                            </div>
                         </div>
@@ -94,14 +94,60 @@
                   <!-- end header inner -->
                   <!-- end header -->
                   <!-- banner -->
-                  <section class="banner_main">
-                     <div class="container">
+                  <section class="banner_main" style="margin-top: -70px;">
+                     <div class="container" style="display: contents;">
                         <div class="row d_flex">
-                           <div class="col-md-126">
+                           <div class="col-md-126 centarContent">
                               <div class="text-bg">
-                                 <h1>Classified Ads</h1>
-                                 <span>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in</span>
-                                 <a href="#">Read More</a>
+                                 <h1 >Contacto</h1>
+                              </div>
+                              <div class="centarFormularioCont" style="margin-top: -20px;">
+                                <p class="colorFormularioCont">Formulario de contacto</p>
+                                <div class="alinear_p_input">
+                                    <p class="color_input">Nombre:</p>
+                                    <div class="input_contacto">
+                                        <input type="text" placeholder="Escribe tu nombre y apellido..." />
+                                    </div>
+                                </div>
+                                <div class="alinear_p_input">
+                                    <p class="color_input">Correo electronico:</p>
+                                    <div class="input_contacto">
+                                        <input type="text" placeholder="Escribe tu correo electronico..." />
+                                    </div>
+                                </div>
+                                <div class="alinear_p_input" style="margin-bottom: 25px;">
+                                    <p class="color_input">Mensaje:</p>
+                                    <div class="input_contacto">
+                                        <input type="text" placeholder="Escribe tu mensaje aqui..." />
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="centarFormularioCont">
+                                <p class="colorFormularioCont">Informacion de contacto</p>
+                                <div class="alinear_p_input">
+                                    <p class="color_input">Direccion:</p>
+                                    <div class="input_contacto">
+                                        <input type="text" placeholder="Escribe tu direccion..." />
+                                    </div>
+                                </div>
+                                <div class="alinear_p_input" style="margin-bottom: 25px;">
+                                    <p class="color_input">Telefono:</p>
+                                    <div class="input_contacto">
+                                        <input type="text" placeholder="Escribe tu telefono..." />
+                                    </div>
+                                </div>
+                                <div class="alinear_p_input" style="margin-bottom: 50px;">
+                                    <p class="color_input">Mapa de Ubicacion:</p>
+                                    <div class="mapouter">
+                                        <div class="gmap_canvas">
+                                            <iframe width="500" height="350" id="gmap_canvas" src="https://maps.google.com/maps?q=bogota&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                            <a href="https://textcaseconvert.com/"></a>
+                                            <br>
+                                            <a href="https://timenowin.net/"></a>
+                                            <style></style>
+                                        </div>
+                                    </div>
+                                </div>
                               </div>
                            </div>
                         </div>
@@ -116,32 +162,14 @@
       </div>
       <div class="overlay"></div>
       <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="/adpitor-html/js/jquery.min.js"></script>
+      <script src="/adpitor-html/js/popper.min.js"></script>
+      <script src="/adpitor-html/js/bootstrap.bundle.min.js"></script>
+      <script src="/adpitor-html/js/jquery-3.0.0.min.js"></script>
       <!-- sidebar -->
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="js/custom.js"></script>
-      <script type="text/javascript">
-         $(document).ready(function() {
-             $("#sidebar").mCustomScrollbar({
-                 theme: "minimal"
-             });
-         
-             $('#dismiss, .overlay').on('click', function() {
-                 $('#sidebar').removeClass('active');
-                 $('.overlay').removeClass('active');
-             });
-         
-             $('#sidebarCollapse').on('click', function() {
-                 $('#sidebar').addClass('active');
-                 $('.overlay').addClass('active');
-                 $('.collapse.in').toggleClass('in');
-                 $('a[aria-expanded=true]').attr('aria-expanded', 'false');
-             });
-         });
-      </script>
+      <script src="/adpitor-html/js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="/adpitor-html/js/custom.js"></script>
+      
       <script>
          $(document).ready(function() {
              $(".fancybox").fancybox({

@@ -1081,5 +1081,60 @@ ul.social_icon li a:hover {
     color: white;
  }
  
+ .centarFormularioCont{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+ }
+
+ .colorFormularioCont{
+     color: white;
+     font-size: 20px;
+     margin-bottom: 20px;
+ }
+
+ .alinear_p_input{
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+
+ .color_input{
+     color: #000;
+     margin-right: 10px;
+     font-weight: 600;
+ }
+
+ .input_contacto {
+    width: 400px;
+    margin: 10px auto;
+ }
+ 
+ .input_contacto input[type="text"] {
+     width: 100%;
+    padding: 10px;
+    border: 1px solid #11688f;
+    background-color: #11688f;
+    color: white;
+    border-radius: 20px;
+ }
+ .input_contacto input[type="text"]::placeholder {
+    color: white;
+ }
+
+ .mapouter{
+     position: relative;
+     text-align: right;
+     height: 350px;
+     width: 500px;
+}
+
+.gmap_canvas{
+     overflow: hidden;
+     background: none !important;
+     height: 350px;
+     width: 500px;
+}
 
 /** end footer **/
