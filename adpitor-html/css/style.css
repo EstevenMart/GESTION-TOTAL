@@ -1030,4 +1030,56 @@ ul.social_icon li a:hover {
      font-size: medium;
  }
 
+ .circulo_div{
+     width: 100px;       
+    height: 100px;
+    background-color: #00344c;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+
+ .alinear_circulo_div{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .style_p_contacto{
+     display: flex;
+    color: white;
+    align-items: center;
+    flex-direction: row;
+ }
+
+ .margenAccion{
+     margin-top: 20px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .input-container {
+     padding: 20px;
+    background-color: #00344c;
+    border: 1px solid #00344c;
+    width: 300px;
+    margin: 10px auto;
+ }
+ 
+ .input-container input[type="text"] {
+     width: 100%;
+    padding: 10px;
+    border: 1px solid #0097b2;
+    background-color: #0097b2;
+    color: white;
+ }
+ .input-container input[type="text"]::placeholder {
+    color: white;
+ }
+ 
+
 /** end footer **/
