@@ -289,7 +289,7 @@ header {
      left: -280px;
      height: 100vh;
      z-index: 1000;
-     background: #fff;
+     background: #004869;
      color: #fff;
      transition: all 0.3s;
      overflow-y: scroll;
@@ -466,7 +466,6 @@ ul.btn li:last-child {
 
 .header_full_banner {
      background-color: #0097b2;
-     min-height: 695px;
      max-height: 1200px;
 }
 
@@ -1018,6 +1017,16 @@ ul.social_icon li a:hover {
 
  .margenTestimonio{
      margin-bottom: 30px;
+ }
+
+ .separarLi{
+     margin-bottom: 15px;
+     margin-top: 15px;
+ }
+
+ .coloLi{
+     color: white;
+     font-size: medium;
  }
 
 /** end footer **/
