@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- basic -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- mobile metas -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   <!-- site metas -->
+   <title>Gestión Total</title>
+   <meta name="keywords" content="">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <!-- bootstrap css -->
+   <link rel="stylesheet" href="/adpitor-html/css/bootstrap.min.css">
+   <!-- style css -->
+   <link rel="stylesheet" href="/adpitor-html/css/style.css">
+   <!-- Responsive-->
+   <link rel="stylesheet" href="/adpitor-html/css/responsive.css">
+   <!-- fevicon -->
+   <link rel="icon" href="images/fevicon.png" type="image/gif" />
+   <!-- Scrollbar Custom CSS -->
+   <link rel="stylesheet" href="/adpitor-html/css/jquery.mCustomScrollbar.min.css">
+   <!-- Tweaks for older IEs-->
+   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+      media="screen">
+   <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+
+   <style>
+      body {
+         font-family: Arial, sans-serif;
+         margin: 0;
+         padding: 0;
+         background-color: #0097B2;
+      }
+
+      .sidebar {
+            height: 100%;
+            width: 200px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #00344C;
+            /* Este es un color azul muy oscuro */
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+            color: white;
+            /* Esto hará que todo el texto en la barra lateral sea blanco */
+        }
+      .content {
+         margin-left: 210px;
+         /* Ajusta esto según el ancho de tu barra lateral */
+         padding: 20px;
+         color: white;
+         text-align: center;
+      }
+
+      .services {
+         display: flex;
+         justify-content: space-around;
+         padding: 20px 0;
+      }
+
+      .service {
+         flex: 1;
+         text-align: center;
+      }
+   </style>
+</head>
+<!-- body -->
+
+<body class="main-layout">
+   <!-- loader  -->
+   <div class="loader_bg">
+      <div class="loader"><img src="/adpitor-html/images/loading.gif" alt="#" /></div>
+   </div>
+   <!-- end loader -->
+   <div class="wrapper">
+      <!-- end loader -->
+      <div id="content">
+         <!-- header -->
+         <header>
+            <!-- header inner -->
+            <div class="menu_sitbar">
+               <ul class="menu">
+                  <li>
+                     <div class="logo">
+                        <a href="/adpitor-html/index.html"><img style="margin-left: -20px;
+                                max-width: 130px;" src="/adpitor-html/images/logo.jpeg" alt="#" /></a>
+                     </div>
+                  </li>
+                  <li class="separarLi">
+                     <a class="coloLi" href="/adpitor-html/index.html">Introducción</a>
+                  </li>
+                  <li class="separarLi">
+                     <a class="coloLi" href="#about">Registro</a>
+                  </li>
+                  <li class="separarLi">
+                     <a class="coloLi" href="/adpitor-html/servicios_destacados/servicios_d.html">Servicios
+                        destacados</a>
+                  </li>
+                  <li class="separarLi">
+                     <a class="coloLi" href="/adpitor-html/testimonio/testimonio_Reseña.html">Testimonio o Reseñas</a>
+                  </li>
+                  <li class="separarLi">
+                     <a class="coloLi" href="/adpitor-html/llamado_Accion/accion.html">Llamado a la acción</a>
+                  </li>
+                  <li class="separarLi">
+                     <a class="coloLi" href="/adpitor-html/contacto/contacto.html">Contacto</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="header_full_banner">
+               <div class="header">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                           <div class="full">
+                              <div class="center-desk">
+
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                           <ul class="btn">
+                              <li><a href="#" class="userCenter"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                       height="16" fill="currentColor" class="bi bi-person icon-spacing"
+                                       viewBox="0 0 16 16">
+                                       <path
+                                          d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                                    </svg>Usuario</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- end header inner -->
+               <!-- end header -->
+               <!-- banner -->
+               <section class="banner_main">
+                  <div class="container" style="display: contents;">
+                     <div class="row d_flex">
+                        <div class="col-md-126 centarContent">
+
+
+
+                           <div class="content">
+                              <h1>Servicios Destacados</h1> <!-- Aquí está el nuevo título -->
+                              <div class="services">
+                                 <div class="service" style="width: 50%; float: left; padding-right: 20px;">
+                                    <h2>Cambio de Aceite </h2>
+                                    <img
+                                       src="https://www.motor.com.co/__export/1648591021037/sites/motor/img/2022/03/29/istock-1325588832.jpg_1548795821.jpg"
+                                       style="width: 100%; max-width: 300px;">
+
+                                    <p style="margin-top: 20px;">¡Mantén tu motor funcionando suavemente con nuestro
+                                       servicio de cambio de
+                                       aceite premium!</p>
+                                    <p>Entendemos que tu vehículo es más que una simple máquina; es tu compañero en cada
+                                       viaje y aventura.
+                                       Por eso, nos comprometemos a ofrecerte un servicio de cambio de aceite
+                                       excepcional que mantenga tu
+                                       motor en óptimas condiciones y te permita disfrutar de un rendimiento óptimo en
+                                       la carretera.</p>
+                                    <h3>¿Por qué elegirnos para tu cambio de aceite?</h3>
+                                    <ul>
+                                       <li>Experiencia y Profesionalismo: Con años de experiencia en el sector
+                                          automotriz, nuestro equipo
+                                          de técnicos altamente capacitados está listo para brindarte un servicio de
+                                          calidad y confianza.
+                                       </li>
+                                       <li>Productos de Calidad: Utilizamos solo los mejores aceites y filtros para
+                                          garantizar un
+                                          rendimiento superior y una protección óptima para tu motor.</li>
+                                       <li>Atención Personalizada: Nos preocupamos por tus necesidades individuales.
+                                          Nuestro equipo estará
+                                          encantado de responder cualquier pregunta que tengas y ofrecerte
+                                          recomendaciones personalizadas
+                                          para el cuidado de tu vehículo.</li>
+                                       <li>Eficiencia y Rapidez: Sabemos lo importante que es tu tiempo. Por eso,
+                                          trabajamos de manera
+                                          eficiente para que puedas volver a la carretera en poco tiempo.</li>
+                                       <li>Precios Competitivos: Ofrecemos precios justos y transparentes para que
+                                          puedas mantener tu
+                                          vehículo en óptimas condiciones sin romper tu presupuesto.</li>
+                                    </ul>
+                                    <p>¡Confía en nosotros para cuidar de tu motor y mantenerlo funcionando como nuevo!
+                                       Agenda tu cita hoy
+                                       mismo y experimenta la diferencia que un cambio de aceite de calidad puede hacer
+                                       en el rendimiento
+                                       de tu vehículo.</p>
+                                 </div>
+                                 <div class="service" style="width: 50%; float: right; padding-left: 20px;">
+                                    <h2>Mantenimiento Preventivo</h2>
+                                    <img
+                                       src="https://d3nqlc6zkdn9bc.cloudfront.net/wp-content/uploads/2023/04/18095221/mantenimiento-carro-mecanica-Jelpit.jpg"
+                                       style="width: 100%; max-width: 300px;">
+                                    <p style="margin-top: 20px;">¡Protege la inversión en tu vehículo con nuestro
+                                       completo servicio de
+                                       mantenimiento preventivo!</p>
+                                    <p>Entendemos la importancia de mantener tu vehículo en óptimas condiciones para
+                                       garantizar su
+                                       rendimiento y durabilidad a largo plazo. Es por eso que ofrecemos un servicio de
+                                       mantenimiento
+                                       preventivo completo y profesional que te ayudará a evitar costosas reparaciones
+                                       en el futuro y a
+                                       mantener tu vehículo funcionando de manera segura y eficiente en todo momento.
+                                    </p>
+                                    <h3>¿Por qué elegir nuestro servicio de mantenimiento preventivo?</h3>
+                                    <ul>
+                                       <li>Inspección Exhaustiva: Nuestro equipo de técnicos altamente capacitados
+                                          realizará una inspección
+                                          exhaustiva de todos los sistemas clave de tu vehículo para identificar
+                                          cualquier problema
+                                          potencial antes de que se convierta en una costosa avería.</li>
+                                       <li>Cambio de Fluidos: Mantenemos tus fluidos (aceite, líquido de frenos,
+                                          refrigerante, etc.) en
+                                          niveles óptimos y los cambiamos según las especificaciones del fabricante para
+                                          garantizar un
+                                          rendimiento óptimo y una vida útil prolongada de los componentes.</li>
+                                       <li>Reemplazo de Filtros: Nos aseguramos de que los filtros de aire, aceite y
+                                          combustible estén
+                                          limpios y en buenas condiciones para garantizar un flujo de aire adecuado y
+                                          una protección
+                                          óptima del motor.</li>
+                                       <li>Ajuste de Componentes: Realizamos ajustes y lubricación de componentes clave,
+                                          como frenos,
+                                          dirección, suspensión, y más, para garantizar un funcionamiento suave y seguro
+                                          de tu vehículo.
+                                       </li>
+                                       <li>Asesoramiento Profesional: Nuestro equipo estará encantado de ofrecerte
+                                          asesoramiento
+                                          profesional sobre cualquier problema que se encuentre durante la inspección y
+                                          te proporcionará
+                                          recomendaciones para mantener tu vehículo en óptimas condiciones.</li>
+                                    </ul>
+                                    <p>¡No dejes que una avería inesperada arruine tu día! Agenda hoy mismo tu servicio
+                                       de mantenimiento
+                                       preventivo y disfruta de la tranquilidad de saber que tu vehículo está en las
+                                       mejores manos.</p>
+                                 </div>
+                                 <div class="service" style="width: 50%; float: right; padding-left: 40px;">
+                                    <h2>Alineación y Balanceo</h2>
+                                    <img
+                                       src="https://wvw.ubitecglobal.com/hs-fs/hubfs/alineaci%C3%B3n%20y%20balanceo%20de%20veh%C3%ADculos%202.jpg?width=1000&name=alineaci%C3%B3n%20y%20balanceo%20de%20veh%C3%ADculos%202.jpg"
+                                       style="width: 100%; max-width: 300px;">
+                                    <p style="margin-top: 20px;">¡Mantén tu conducción suave y segura con nuestro
+                                       servicio de alineación y
+                                       balanceo de ruedas!</p>
+                                    <p>Entendemos que una conducción suave y segura es fundamental para tu tranquilidad
+                                       en la carretera. Es
+                                       por eso que ofrecemos un servicio completo de alineación y balanceo de ruedas que
+                                       garantiza un
+                                       desplazamiento suave, un desgaste uniforme de los neumáticos y una mayor
+                                       seguridad en cada viaje.
+                                    </p>
+                                    <h3>¿Por qué elegir nuestro servicio de alineación y balanceo?</h3>
+                                    <ul>
+                                       <li>Equipo Especializado: Contamos con equipos de última generación y técnicos
+                                          expertos que
+                                          realizarán una alineación precisa y un balanceo perfecto de tus ruedas,
+                                          asegurando un manejo
+                                          suave y seguro.</li>
+                                       <li>Desgaste Uniforme de Neumáticos: Una alineación adecuada evita el desgaste
+                                          irregular de los
+                                          neumáticos, lo que prolonga su vida útil y te ayuda a ahorrar dinero a largo
+                                          plazo.</li>
+                                       <li>Mejor Manejo y Estabilidad: Un vehículo correctamente alineado y balanceado
+                                          proporciona una
+                                          conducción más suave, mejora la estabilidad en la carretera y reduce la fatiga
+                                          del conductor.
+                                       </li>
+                                       <li>Ahorro de Combustible: Una alineación y balanceo adecuados también pueden
+                                          mejorar la eficiencia
+                                          del combustible al reducir la resistencia al rodaje de los neumáticos.</li>
+                                       <li>Seguridad en la Carretera: Con ruedas alineadas y balanceadas correctamente,
+                                          tu vehículo tendrá
+                                          un mejor agarre y control, lo que aumenta la seguridad tanto para ti como para
+                                          tus pasajeros.
+                                       </li>
+                                    </ul>
+                                    <p>¡No arriesgues tu seguridad ni el rendimiento de tu vehículo! Agenda hoy mismo tu
+                                       servicio de
+                                       alineación y balanceo, experimenta la diferencia que puede hacer un trabajo
+                                       profesional en tus
+                                       ruedas.</p>
+                                 </div>
+                              </div>
+                           </div>
+
+                        </div>
+                     </div>
+                  </div>
+               </section>
+            </div>
+         </header>
+         <!-- end banner -->
+
+      </div>
+
+   </div>
+   <div class="overlay"></div>
+   <!-- Javascript files-->
+   <script src="/adpitor-html/js/jquery.min.js"></script>
+   <script src="/adpitor-html/js/popper.min.js"></script>
+   <script src="/adpitor-html/js/bootstrap.bundle.min.js"></script>
+   <script src="/adpitor-html/js/jquery-3.0.0.min.js"></script>
+   <!-- sidebar -->
+   <script src="/adpitor-html/js/jquery.mCustomScrollbar.concat.min.js"></script>
+   <script src="/adpitor-html/js/custom.js"></script>
+
+   <script>
+      $(document).ready(function () {
+         $(".fancybox").fancybox({
+            openEffect: "none",
+            closeEffect: "none"
+         });
+
+         $(".zoom").hover(function () {
+
+            $(this).addClass('transition');
+         }, function () {
+
+            $(this).removeClass('transition');
+         });
+      });
+   </script>
+</body>
+
+</html>
