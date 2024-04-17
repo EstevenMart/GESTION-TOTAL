@@ -14,15 +14,15 @@
    <meta name="description" content="">
    <meta name="author" content="">
    <!-- bootstrap css -->
-   <link rel="stylesheet" href="/adpitor-html/css/bootstrap.min.css">
+   <link rel="stylesheet" href="../css/bootstrap.min.css">
    <!-- style css -->
-   <link rel="stylesheet" href="/adpitor-html/css/style.css">
+   <link rel="stylesheet" href="../css/style.css">
    <!-- Responsive-->
-   <link rel="stylesheet" href="/adpitor-html/css/responsive.css">
+   <link rel="stylesheet" href="../css/responsive.css">
    <!-- fevicon -->
-   <link rel="icon" href="images/fevicon.png" type="image/gif" />
+   <link rel="icon" href="../images/fevicon.png" type="image/gif" />
    <!-- Scrollbar Custom CSS -->
-   <link rel="stylesheet" href="/adpitor-html/css/jquery.mCustomScrollbar.min.css">
+   <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
    <!-- Tweaks for older IEs-->
    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
@@ -40,20 +40,21 @@
       }
 
       .sidebar {
-            height: 100%;
-            width: 200px;
-            position: fixed;
-            z-index: 1;
-            top: 0;
-            left: 0;
-            background-color: #00344C;
-            /* Este es un color azul muy oscuro */
-            overflow-x: hidden;
-            transition: 0.5s;
-            padding-top: 60px;
-            color: white;
-            /* Esto hará que todo el texto en la barra lateral sea blanco */
-        }
+         height: 100%;
+         width: 200px;
+         position: fixed;
+         z-index: 1;
+         top: 0;
+         left: 0;
+         background-color: #00344C;
+         /* Este es un color azul muy oscuro */
+         overflow-x: hidden;
+         transition: 0.5s;
+         padding-top: 60px;
+         color: white;
+         /* Esto hará que todo el texto en la barra lateral sea blanco */
+      }
+
       .content {
          margin-left: 210px;
          /* Ajusta esto según el ancho de tu barra lateral */
@@ -76,10 +77,11 @@
 </head>
 <!-- body -->
 
+
 <body class="main-layout">
    <!-- loader  -->
    <div class="loader_bg">
-      <div class="loader"><img src="/adpitor-html/images/loading.gif" alt="#" /></div>
+      <div class="loader"><img src="../images/loading.gif" alt="#" /></div>
    </div>
    <!-- end loader -->
    <div class="wrapper">
@@ -92,28 +94,29 @@
                <ul class="menu">
                   <li>
                      <div class="logo">
-                        <a href="/adpitor-html/index.html"><img style="margin-left: -20px;
-                                max-width: 130px;" src="/adpitor-html/images/logo.jpeg" alt="#" /></a>
+                        <a href="../index.html"><img style="margin-left: -20px;
+                                max-width: 130px;" src="../images/logo.jpeg" alt="#" />
+                        </a>
                      </div>
                   </li>
                   <li class="separarLi">
-                     <a class="coloLi" href="/adpitor-html/index.html">Introducción</a>
+                     <a class="coloLi" href="../adpitor-html/index.html">Introducción</a>
                   </li>
                   <li class="separarLi">
                      <a class="coloLi" href="#about">Registro</a>
                   </li>
                   <li class="separarLi">
-                     <a class="coloLi" href="/adpitor-html/servicios_destacados/servicios_d.html">Servicios
+                     <a class="coloLi" href="../servicios_destacados/servicios_d.html">Servicios
                         destacados</a>
                   </li>
                   <li class="separarLi">
-                     <a class="coloLi" href="/adpitor-html/testimonio/testimonio_Reseña.html">Testimonio o Reseñas</a>
+                     <a class="coloLi" href="../adpitor-html/testimonio/testimonio_Reseña.html">Testimonio o Reseñas</a>
                   </li>
                   <li class="separarLi">
-                     <a class="coloLi" href="/adpitor-html/llamado_Accion/accion.html">Llamado a la acción</a>
+                     <a class="coloLi" href="../adpitor-html/llamado_Accion/accion.html">Llamado a la acción</a>
                   </li>
                   <li class="separarLi">
-                     <a class="coloLi" href="/adpitor-html/contacto/contacto.html">Contacto</a>
+                     <a class="coloLi" href="../adpitor-html/contacto/contacto.html">Contacto</a>
                   </li>
                </ul>
             </div>
@@ -135,7 +138,8 @@
                                        viewBox="0 0 16 16">
                                        <path
                                           d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
-                                    </svg>Usuario</a></li>
+                                    </svg>Usuario</a>
+                              </li>
                            </ul>
                         </div>
                      </div>
@@ -308,13 +312,13 @@
    </div>
    <div class="overlay"></div>
    <!-- Javascript files-->
-   <script src="/adpitor-html/js/jquery.min.js"></script>
-   <script src="/adpitor-html/js/popper.min.js"></script>
-   <script src="/adpitor-html/js/bootstrap.bundle.min.js"></script>
-   <script src="/adpitor-html/js/jquery-3.0.0.min.js"></script>
+   <script src="../js/jquery.min.js"></script>
+   <script src="../js/popper.min.js"></script>
+   <script src="../js/bootstrap.bundle.min.js"></script>
+   <script src="../js/jquery-3.0.0.min.js"></script>
    <!-- sidebar -->
-   <script src="/adpitor-html/js/jquery.mCustomScrollbar.concat.min.js"></script>
-   <script src="/adpitor-html/js/custom.js"></script>
+   <script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>
+   <script src="../js/custom.js"></script>
 
    <script>
       $(document).ready(function () {
