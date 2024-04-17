@@ -272,9 +272,9 @@ header {
 
 .menu_sitbar {
      float: left;
-     width: 160px;
+     width: 120px;
      height: 100%;
-     background: #00344c;
+     background: #393765;
      border-right: #fff solid 7px;
      padding: 33px;
      position: absolute;
@@ -289,7 +289,7 @@ header {
      left: -280px;
      height: 100vh;
      z-index: 1000;
-     background: #004869;
+     background: #393765;
      color: #fff;
      transition: all 0.3s;
      overflow-y: scroll;
@@ -340,7 +340,6 @@ header {
      background: transparent;
      padding: 0;
      border: none;
-     margin-left: 25px;
 }
 
 #sidebar .sidebar-header {
@@ -366,13 +365,13 @@ header {
 
 #sidebar ul li a:hover {
      color: #fff;
-     background: #0808ff;
+     background: #0991CC;
 }
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
      color: #fff;
-     background: #0808ff;
+     background: #0991CC;
 }
 
 a[data-toggle="collapse"] {
@@ -465,9 +464,11 @@ ul.btn li:last-child {
 /*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
 
 .header_full_banner {
-     background-color: #0097b2;
-     min-height: 695px;
-     max-height: 1200px;
+     background: url(../images/fondo1.jpg);
+     background-repeat: no-repeat;
+     min-height: 700px;
+     background-size: 100% 100%;
+     padding-left: 60px;
 }
 
 .header {
@@ -496,13 +497,13 @@ ul.btn li:last-child {
 }
 
 .text-bg {
-     margin-top: -100px;
      text-align: center;
+     padding-bottom: 50px;
 }
 
 .text-bg h1 {
      color: #fff;
-     font-size: 40px;
+     font-size: 90px;
      line-height: 80px;
      padding-bottom: 35px;
      font-weight: bold;
@@ -579,7 +580,7 @@ ul.btn li:last-child {
 }
 
 .blu {
-     color: #0808ff;
+     color: #393765;
 }
 
 .read_more {
@@ -979,162 +980,5 @@ ul.social_icon li a:hover {
      color: #0808ff;
 }
 
-.userCenter{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.icon-spacing {
-     margin-right: 5px;
- }
-
- .rounded-div {
-     border-radius: 15px;    
-     padding: 20px;
-     background-color: #00344c;
-     display: flex;
-     flex-direction: row;
-     align-items: center;
-     justify-content: center;
-     margin-top: -10px;           
- }
-
- .colorP{
-     color: #fff;
- }
-
- .ajustarContenidoDiv_Tes{
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     margin-bottom: 15px;
- }
-
- .margenizq{
-     margin-left: 5px;
-     color:yellow;
- }
-
- .margenTestimonio{
-     margin-bottom: 30px;
- }
-
- .separarLi{
-     margin-bottom: 15px;
-     margin-top: 15px;
- }
-
- .coloLi{
-     color: white;
-     font-size: medium;
- }
-
- .circulo_div{
-     width: 100px;       
-    height: 100px;
-    background-color: #00344c;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
- }
-
- .alinear_circulo_div{
-     display: flex;
-    justify-content: center;
-    align-items: center;
- }
-
- .style_p_contacto{
-     display: flex;
-    color: white;
-    align-items: center;
-    flex-direction: row;
- }
-
- .margenAccion{
-     margin-top: 20px;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
- }
-
- .input-container {
-     padding: 20px;
-    background-color: #00344c;
-    border: 1px solid #00344c;
-    width: 300px;
-    margin: 10px auto;
- }
- 
- .input-container input[type="text"] {
-     width: 100%;
-    padding: 10px;
-    border: 1px solid #0097b2;
-    background-color: #0097b2;
-    color: white;
- }
- .input-container input[type="text"]::placeholder {
-    color: white;
- }
- 
- .centarFormularioCont{
-     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: stretch;
- }
-
- .colorFormularioCont{
-     color: white;
-     font-size: 20px;
-     margin-bottom: 20px;
- }
-
- .alinear_p_input{
-     display: flex;
-    flex-direction: row;
-    align-items: center;
- }
-
- .color_input{
-     color: #000;
-     margin-right: 10px;
-     font-weight: 600;
- }
-
- .input_contacto {
-    width: 400px;
-    margin: 10px auto;
- }
- 
- .input_contacto input[type="text"] {
-     width: 100%;
-    padding: 10px;
-    border: 1px solid #11688f;
-    background-color: #11688f;
-    color: white;
-    border-radius: 20px;
- }
- .input_contacto input[type="text"]::placeholder {
-    color: white;
- }
-
- .mapouter{
-     position: relative;
-     text-align: right;
-     height: 350px;
-     width: 500px;
-}
-
-.gmap_canvas{
-     overflow: hidden;
-     background: none !important;
-     height: 350px;
-     width: 500px;
-}
 
 /** end footer **/

@@ -8,20 +8,20 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>Gestión Total</title>
+      <title>adpitor</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
       <!-- bootstrap css -->
-      <link rel="stylesheet" href="/adpitor-html/css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
       <!-- style css -->
-      <link rel="stylesheet" href="/adpitor-html/css/style.css">
+      <link rel="stylesheet" href="css/style.css">
       <!-- Responsive-->
-      <link rel="stylesheet" href="/adpitor-html/css/responsive.css">
+      <link rel="stylesheet" href="css/responsive.css">
       <!-- fevicon -->
       <link rel="icon" href="images/fevicon.png" type="image/gif" />
       <!-- Scrollbar Custom CSS -->
-      <link rel="stylesheet" href="/adpitor-html/css/jquery.mCustomScrollbar.min.css">
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
       <!-- Tweaks for older IEs-->
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
@@ -33,40 +33,48 @@
    <body class="main-layout">
       <!-- loader  -->
       <div class="loader_bg">
-         <div class="loader"><img src="/adpitor-html/images/loading.gif" alt="#" /></div>
+         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
       </div>
       <!-- end loader -->
       <div class="wrapper">
          <!-- end loader -->
+         <div class="sidebar">
+            <!-- Sidebar  -->
+            <nav id="sidebar">
+               <div id="dismiss">
+                  <i class="fa fa-arrow-left"></i>
+               </div>
+               <ul class="list-unstyled components">
+                  <li class="separarLi">
+                     <a class="coloLi" href="/adpitor-html/index.html">Introduccion</a>
+                  </li>
+                  <li class="separarLi">
+                     <a class="coloLi" href="#about">Registro</a>
+                  </li>
+                  <li class="separarLi">
+                     <a class="coloLi" href="../adpitor-html/servicios_destacados/servicios_d.html">Servicios destacados</a>
+                  </li>
+                  <li class="separarLi">
+                     <a class="coloLi" href="../adpitor-html/testimonio/testimonio_Reseña.html">Testimonio o Reseñas</a>
+                  </li>
+                  <li class="separarLi">
+                     <a class="coloLi" href="../adpitor-html/llamado_Accion/accion.html">Llamado a la acción</a>
+                  </li>
+                  <li class="separarLi">
+                     <a class="coloLi" href="../adpitor-html/contacto/contacto.html">Contacto</a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
          <div id="content">
             <!-- header -->
             <header>
                <!-- header inner -->
                <div class="menu_sitbar">
                   <ul class="menu">
-                     <li>
-                        <div class="logo">
-                            <a href="/adpitor-html/index.html"><img style="margin-left: -20px;
-                                max-width: 130px;" src="/adpitor-html/images/logo.jpeg" alt="#" /></a>
-                         </div>
-                     </li>
-                     <li class="separarLi">
-                        <a class="coloLi" href="/adpitor-html/index.html">Introduccion</a>
-                     </li>
-                     <li class="separarLi">
-                        <a class="coloLi" href="#about">Registro</a>
-                     </li>
-                     <li class="separarLi">
-                       <a class="coloLi" href="/adpitor-html/servicios_destacados/servicios_d.html">Servicios destacados</a>
-                    </li>
-                     <li class="separarLi">
-                        <a class="coloLi" href="/adpitor-html/testimonio/testimonio_Reseña.html">Testimonio o Reseñas</a>
-                     </li>
-                     <li class="separarLi">
-                        <a class="coloLi" href="/adpitor-html/llamado_Accion/accion.html">Llamado a la acción</a>
-                     </li>
-                     <li class="separarLi">
-                        <a class="coloLi" href="/adpitor-html/contacto/contacto.html">Contacto</a>
+                     <li><button type="button" id="sidebarCollapse">
+                        <img src="images/menu_icon.png" alt="#" />
+                        </button></a>
                      </li>
                   </ul>
                </div>
@@ -77,14 +85,16 @@
                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
                               <div class="full">
                                  <div class="center-desk">
-                                    
+                                    <div class="logo">
+                                       <a href="index.html"><img src="img/sinfondo.png" alt="#" /></a>
+                                    </div>
                                  </div>
                               </div>
                            </div>
                            <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
                               <ul class="btn">
-                                 <li class="login_btn"><a href="#">Login</a></li>
-                                 <li><a href="#">Sign Up</a></li>
+                                 <li class="login_btn"><a href="#">Ingresar</a></li>
+                                 <li><a href="#">Registrarse</a></li>
                                  <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
                               </ul>
                            </div>
@@ -99,9 +109,9 @@
                         <div class="row d_flex">
                            <div class="col-md-126">
                               <div class="text-bg">
-                                 <h1>Classified Ads</h1>
-                                 <span>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in</span>
-                                 <a href="#">Read More</a>
+                                 <h1>Bievenidos a Gestion Total</h1>
+                                 <span>Una aplicacion para gestionar usuarios de manera eficiente</span>
+                                 <a href="#">Leer Más</a>
                               </div>
                            </div>
                         </div>
@@ -110,9 +120,250 @@
                </div>
             </header>
             <!-- end banner -->
-            
+            <!-- about -->
+            <div id="about"  class="about">
+               <div class="container-fluid">
+                  <div class="row d_flex">
+                     <div class="col-md-6">
+                        <div class="about_img">
+                           <figure><img src="img/clientes.jpg" alt="#"/></figure>
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="titlepage">
+                           <h2>Servi<span class="blu">cios</span></h2>
+                           <p>Nuestros Clientes son los mejores a nivel mundial</p>
+                           <a class="read_more">Leer Más</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- end about -->
+            <!-- classified  section -->
+            <div class="classified ">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="titlepage">
+                           <h2>TIPO DE <span class="blu">SERVICIOS</span></h2>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="row">
+                           <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12">
+                              <div class="classified_box">
+                                 <span>0<strong class="blu2">1</strong>.</span>
+                              </div>
+                           </div>
+                           <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12">
+                              <div class="classified_box">
+                                 <div class="fornt">
+                                    <h3>Servicio automotriz intermedio</h3>
+                                    <p>Se recomienda hacer un servicio automotriz intermedio cada 6 meses o cada 10.000 km recorridos, lo que ocurra antes.
+                                    Todas las revisiones incluirán la comprobación de luces, frenos, neumáticos, dirección, suspensión y todos los niveles de líquidos. un servicio automotriz intermedia también puede incluir</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-12">
+                           <div class="row">
+                              <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12">
+                                 <div class="classified_box">
+                                    <span>0<strong class="blu2">2</strong>.</span>
+                                 </div>
+                              </div>
+                              <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12">
+                                 <div class="classified_box">
+                                    <div class="fornt">
+                                       <h3>Servicio completo</h3>
+                                       <p>Se recomienda hacer un servicio completo cada 12 meses o 12.000 km, lo que ocurra antes.
+                                       Un servicio completo suele incluir todo lo que hay en el servicio intermedio, más comprobaciones y cambios adicionales. </p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-12">
+                           <div class="row">
+                              <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12">
+                                 <div class="classified_box">
+                                    <span>0<strong class="blu2">3</strong>.</span>
+                                 </div>
+                              </div>
+                              <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12">
+                                 <div class="classified_box">
+                                    <div class="fornt">
+                                       <h3>Servicio general del carro</h3>
+                                       <p>Puede recomendarse a los 24 meses o a los 24.000 km. Un servicio automotriz general suele incluir todas las comprobaciones y cambios de la revisión completa, más algunos extras</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- end classified  section -->
+            <!-- review -->
+            <div id="review" class="review">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="titlepage">
+                           <h2>Our client <span class="blu"> review</span></h2>
+                           <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div id="myCarousel" class="carousel slide review_Carousel " data-ride="carousel">
+                           <ol class="carousel-indicators">
+                              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                              <li data-target="#myCarousel" data-slide-to="1"></li>
+                              <li data-target="#myCarousel" data-slide-to="2"></li>
+                           </ol>
+                           <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                 <div class="container">
+                                    <div class="carousel-caption ">
+                                       <div class="row">
+                                          <div class="col-md-12 margin_boot">
+                                             <div class="test_box">
+                                                <i><img src="images/te1.png" alt="#"/></i>
+                                                <h4>John due</h4>
+                                                <span>(adiser)</span>
+                                                <p>It is a long established fact that a reader will be distracted by the readable content of a page <br>when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal<br> distribution of letters, as opposed to</p>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="carousel-item">
+                                 <div class="container">
+                                    <div class="carousel-caption">
+                                       <div class="row">
+                                          <div class="col-md-12 margin_boot">
+                                             <div class="test_box">
+                                                <i><img src="images/te1.png" alt="#"/></i>
+                                                <h4>John due</h4>
+                                                <span>(adiser)</span>
+                                                <p>It is a long established fact that a reader will be distracted by the readable content of  pagea<br> when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal<br> distribution of letters, as opposed to</p>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="carousel-item">
+                                 <div class="container">
+                                    <div class="carousel-caption">
+                                       <div class="row">
+                                          <div class="col-md-12">
+                                             <div class="test_box">
+                                                <i><img src="images/te1.png" alt="#"/></i>
+                                                <h4>John due</h4>
+                                                <span>(adiser)</span>
+                                                <p>It is a long established fact that a reader will be distracted by the readable content of a page <br> when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal<br> distribution of letters, as opposed to</p>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                           <span class="sr-only">Previous</span>
+                           </a>
+                           <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                           <span class="sr-only">Next</span>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- end review -->
          </div>
-         
+         <!--  footer -->
+         <footer id="contact">
+            <div class="footer">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-4">
+                        <div class="titlepage">
+                           <h2>Contact Us</h2>
+                        </div>
+                     </div>
+                     <div class="col-md-8">
+                        <ul class="location_icon">
+                           <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a> Locatins</li>
+                           <li><a href="#"><i class="fa fa-volume-control-phone" aria-hidden="true"></i></a> +71 9087654321</li>
+                           <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>demo@gmail.com</li>
+                        </ul>
+                     </div>
+                     <div class="col-md-6">
+                        <form id="request" class="main_form">
+                           <div class="row">
+                              <div class="col-md-12 ">
+                                 <input class="contactus" placeholder="Full Name" type="type" name="Full Name"> 
+                              </div>
+                              <div class="col-md-12">
+                                 <input class="contactus" placeholder="Email" type="type" name="Email"> 
+                              </div>
+                              <div class="col-md-12">
+                                 <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">                          
+                              </div>
+                              <div class="col-md-12">
+                                 <textarea class="textarea" placeholder="Message" type="type" Message="Name">Message </textarea>
+                              </div>
+                              <div class="col-sm-col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                 <button class="send_btn">Send</button>
+                              </div>
+                              <div class="col-sm-col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                 <ul class="social_icon">
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </form>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="map">
+                           <figure><img src="images/map.jpg" alt="#"/></figure>
+                        </div>
+                        <form class="bottom_form">
+                           <h3>Newsletter</h3>
+                           <input class="enter" placeholder="Enter your email" type="text" name="Enter your email">
+                           <button class="sub_btn">subscribe</button>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+               <div class="copyright">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-12">
+                           <p>Copyright 2019 All Right Reserved By <a href="https://html.design/"> Free  html Templates</a></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </footer>
+         <!-- end footer -->
       </div>
       <div class="overlay"></div>
       <!-- Javascript files-->
@@ -160,4 +411,3 @@
       </script>
    </body>
 </html>
-
